@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    network_mode: "host"
+    environment:
+      STRAPI_TOKEN: "84374b973447f7073eac41f90f65004f87d706c180c5010d5395000e7cc137e7d20e0ba078c73fae429171710a7ca129a7e50f28ed4c6af5e7de95d5b6dc6d1ffc47bb252b36fa419c67e60b49c1b9be8456bfb48bb7f9c462bacdbb9c2a313b45f99e34ea8eeb25b4c78b67a98e11dac03fa5b817ddbad3f4886487b7cec66f"
+
